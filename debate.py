@@ -107,6 +107,7 @@ if st.session_state.setup_complete and not st.session_state.result_shown and not
             st.session_state.round_count += 1
     else:
         st.session_state.debate_complete = True
+        st.rerun()
 
 if st.session_state.debate_complete and not st.session_state.result_shown:
       if not st.session_state.evaluating:
