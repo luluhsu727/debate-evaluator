@@ -2,7 +2,7 @@ from openai import OpenAI
 import streamlit as st
 from streamlit_js_eval import streamlit_js_eval
 
-st.set_page_config(page_title = "Debate Simulator", page_icon = "🗣️")
+st.set_page_config(page_title = "Debate Evaluator", page_icon = "🗣️")
 st.title("AI Debate Arena")
 
 if "setup_complete" not in st.session_state:
